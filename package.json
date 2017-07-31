@@ -2,7 +2,7 @@
   "name": "nvmrc-inspect",
   "version": "1.0.0",
   "description": "'check .nvmrc, lock node version'",
-  "main": "lib/index.js",
+  "bin": "lib/index.js",
   "scripts": {
     "test": "node lib/index.js"
   },
@@ -11,6 +11,10 @@
     "node",
     "version"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/relign/nvmrc-inspect.git"
+  },
   "author": "relign",
   "license": "ISC",
   "dependencies": {
