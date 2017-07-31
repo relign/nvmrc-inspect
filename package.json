@@ -1,0 +1,20 @@
+{
+  "name": "nvmrc-inspect",
+  "version": "1.0.0",
+  "description": "'check .nvmrc, lock node version'",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node lib/index.js"
+  },
+  "keywords": [
+    "nvmrc",
+    "node",
+    "version"
+  ],
+  "author": "relign",
+  "license": "ISC",
+  "dependencies": {
+    "semver": "^5.4.1",
+    "yargs": "^8.0.2"
+  }
+}
